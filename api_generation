@@ -40,7 +40,7 @@ def generate_statistics(users_count, ads_count):
     i = 0
     curr_ads = 60
     while i < users_count:
-        user = User("op7+{}@op.op".format(str(i)), "opopopop")
+        user = User("op12+{}@op.op".format(str(i)), "opopopop")
         user.register()
         i += 1
         y = 0

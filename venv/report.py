@@ -54,8 +54,15 @@ class Report():
         if str(function) == "Registration":
             if "[{" in response:
                 response = response.split(',')
-                first_response = response[0]
-                first_response = first_response[3:]
-                return (first_response, response[1], response[10])
+                first_response, second_response, third_response = "", "", ""
+                for timeout_response in response:
+                    if "[{'id':" in str(timeout_response):
+                        first_response = timeout_response
+                    elif "'email':" in str(timeout_response):
+                        second_response = timeout_response
+                    elif "'token'" in str(timeout_response):
+                        third_response = timeout_response
+                first_response = first_response.replace("\n[{", "")
+                return (first_response, second_response, third_response)
             else:
                 return False

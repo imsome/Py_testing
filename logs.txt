@@ -1,123 +1,25 @@
-18:50:54.217877 - App initialization: Trying to configure app
-18:50:54.2178770 - Making url: Configured url with https://ip-2113.api.branch.swapix.com/
-18:50:54.218880 - App initialization: Failed to load json configs, will work with default settings
-18:50:54.2188800 - Registration: Registering with user op7+0@op.op
-18:50:55.244419 - Registration: ('id': 73,  'email': 'op7+0@op.op',  'token': '0P6iJvbhz6pHc6g_uzxBv7tLIaUGJm2L')
-18:50:55.245421 - Creating add: Trying to create add with your settings
-18:50:55.592108 - Creating add: Trying to create add with your settings
-18:50:56.010059 - Creating add: Trying to create add with your settings
-18:50:56.433418 - Creating add: Trying to create add with your settings
-18:50:56.838942 - Creating add: Trying to create add with your settings
-18:50:57.243880 - Creating add: Trying to create add with your settings
-18:50:57.640167 - Creating add: Trying to create add with your settings
-18:50:58.048975 - Creating add: Trying to create add with your settings
-18:50:58.480602 - Creating add: Trying to create add with your settings
-18:50:58.901091 - Creating add: Trying to create add with your settings
-18:50:59.316156 - Registration: Registering with user op7+1@op.op
-18:51:00.320353 - Registration: ('id': 74,  'email': 'op7+1@op.op',  'token': 'bJo7O6L7Cf7UxZGVF1zhncTZGbTGy0fn')
-18:51:00.321332 - Creating add: Trying to create add with your settings
-18:51:00.725218 - Creating add: Trying to create add with your settings
-18:51:01.108343 - Creating add: Trying to create add with your settings
-18:51:01.535288 - Creating add: Trying to create add with your settings
-18:51:01.951193 - Creating add: Trying to create add with your settings
-18:51:02.380760 - Creating add: Trying to create add with your settings
-18:51:02.776254 - Creating add: Trying to create add with your settings
-18:51:03.182192 - Creating add: Trying to create add with your settings
-18:51:03.605442 - Creating add: Trying to create add with your settings
-18:51:04.011250 - Creating add: Trying to create add with your settings
-18:51:04.396035 - Registration: Registering with user op7+2@op.op
-18:51:05.382463 - Registration: ('id': 75,  'email': 'op7+2@op.op',  'token': 'iAC-sVM3EUaTqcDvBJkp6Dg5sx7nZbw_')
-18:51:05.384443 - Creating add: Trying to create add with your settings
-18:51:05.777926 - Creating add: Trying to create add with your settings
-18:51:06.203478 - Creating add: Trying to create add with your settings
-18:51:06.558000 - Creating add: Trying to create add with your settings
-18:51:06.963498 - Creating add: Trying to create add with your settings
-18:51:07.369466 - Creating add: Trying to create add with your settings
-18:51:07.743627 - Creating add: Trying to create add with your settings
-18:51:08.148385 - Creating add: Trying to create add with your settings
-18:51:08.527294 - Creating add: Trying to create add with your settings
-18:51:08.927447 - Creating add: Trying to create add with your settings
-18:51:09.350818 - Registration: Registering with user op7+3@op.op
-18:51:10.342366 - Registration: ('id': 76,  'email': 'op7+3@op.op',  'token': 'nWRYZuLc5NCkMb8aNJDBQsEl25OcsQEc')
-18:51:10.343369 - Creating add: Trying to create add with your settings
-18:51:10.723412 - Creating add: Trying to create add with your settings
-18:51:11.152205 - Creating add: Trying to create add with your settings
-18:51:11.580592 - Creating add: Trying to create add with your settings
-18:51:11.972157 - Creating add: Trying to create add with your settings
-18:51:12.378878 - Creating add: Trying to create add with your settings
-18:51:12.779309 - Creating add: Trying to create add with your settings
-18:51:13.182354 - Creating add: Trying to create add with your settings
-18:51:13.594172 - Creating add: Trying to create add with your settings
-18:51:13.960641 - Creating add: Trying to create add with your settings
-18:51:14.341870 - Registration: Registering with user op7+4@op.op
-18:51:15.322464 - Registration: ('id': 77,  'email': 'op7+4@op.op',  'token': 'S1AoCYawiJlI8bcmZOYBM4cnPWmztBtv')
-18:51:15.323466 - Creating add: Trying to create add with your settings
-18:51:15.756536 - Creating add: Trying to create add with your settings
-18:51:16.148335 - Creating add: Trying to create add with your settings
-18:51:16.567336 - Creating add: Trying to create add with your settings
-18:51:16.976155 - Creating add: Trying to create add with your settings
-18:51:17.392239 - Creating add: Trying to create add with your settings
-18:51:17.769126 - Creating add: Trying to create add with your settings
-18:51:18.199018 - Creating add: Trying to create add with your settings
-18:51:18.589185 - Creating add: Trying to create add with your settings
-18:51:18.981572 - Creating add: Trying to create add with your settings
-18:51:19.367927 - Registration: Registering with user op7+5@op.op
-18:51:20.330556 - Registration: ('id': 78,  'email': 'op7+5@op.op',  'token': 'GMKuqKmjdKRDNwTK4sA2txtTyLsJzv9d')
-18:51:20.331557 - Creating add: Trying to create add with your settings
-18:51:20.742220 - Creating add: Trying to create add with your settings
-18:51:21.152263 - Creating add: Trying to create add with your settings
-18:51:21.578867 - Creating add: Trying to create add with your settings
-18:51:21.980214 - Creating add: Trying to create add with your settings
-18:51:22.401186 - Creating add: Trying to create add with your settings
-18:51:22.806782 - Creating add: Trying to create add with your settings
-18:51:23.173725 - Creating add: Trying to create add with your settings
-18:51:23.535117 - Creating add: Trying to create add with your settings
-18:51:23.889246 - Creating add: Trying to create add with your settings
-18:51:24.269718 - Registration: Registering with user op7+6@op.op
-18:51:25.210636 - Registration: ('id': 79,  'email': 'op7+6@op.op',  'token': 'hiquWTx93mdIULBc6P6wnSXk7Y9UueVP')
-18:51:25.211617 - Creating add: Trying to create add with your settings
-18:51:25.605777 - Creating add: Trying to create add with your settings
-18:51:26.011568 - Creating add: Trying to create add with your settings
-18:51:26.453062 - Creating add: Trying to create add with your settings
-18:51:26.822565 - Creating add: Trying to create add with your settings
-18:51:27.219309 - Creating add: Trying to create add with your settings
-18:51:27.581995 - Creating add: Trying to create add with your settings
-18:51:27.976920 - Creating add: Trying to create add with your settings
-18:51:28.363489 - Creating add: Trying to create add with your settings
-18:51:28.772682 - Creating add: Trying to create add with your settings
-18:51:29.126867 - Registration: Registering with user op7+7@op.op
-18:51:30.055712 - Registration: ('id': 80,  'email': 'op7+7@op.op',  'token': 'KEykQ85cLWG60kI0tTvNNryluPaT62as')
-18:51:30.0557120 - Creating add: Trying to create add with your settings
-18:51:30.470364 - Creating add: Trying to create add with your settings
-18:51:30.845760 - Creating add: Trying to create add with your settings
-18:51:31.286792 - Creating add: Trying to create add with your settings
-18:51:31.677237 - Creating add: Trying to create add with your settings
-18:51:32.051148 - Creating add: Trying to create add with your settings
-18:51:32.424007 - Creating add: Trying to create add with your settings
-18:51:32.824510 - Creating add: Trying to create add with your settings
-18:51:33.193988 - Creating add: Trying to create add with your settings
-18:51:33.568261 - Creating add: Trying to create add with your settings
-18:51:33.942562 - Registration: Registering with user op7+8@op.op
-18:51:34.927653 - Registration: ('id': 81,  'email': 'op7+8@op.op',  'token': 'm5cCrUBvRJs1urg6ydjsuyR5UrB_WXFS')
-18:51:34.929654 - Creating add: Trying to create add with your settings
-18:51:35.334776 - Creating add: Trying to create add with your settings
-18:51:35.722404 - Creating add: Trying to create add with your settings
-18:51:36.155342 - Creating add: Trying to create add with your settings
-18:51:36.560704 - Creating add: Trying to create add with your settings
-18:51:36.939448 - Creating add: Trying to create add with your settings
-18:51:37.369367 - Creating add: Trying to create add with your settings
-18:51:37.768303 - Creating add: Trying to create add with your settings
-18:51:38.172069 - Creating add: Trying to create add with your settings
-18:51:38.523764 - Creating add: Trying to create add with your settings
-18:51:38.943105 - Registration: Registering with user op7+9@op.op
-18:51:39.900105 - Registration: ('id': 82,  'email': 'op7+9@op.op',  'token': 'fac4n6r2Vn_ki-GAsDT8YsIgms9aqbmi')
-18:51:39.9001050 - Creating add: Trying to create add with your settings
-18:51:40.287488 - Creating add: Trying to create add with your settings
-18:51:40.713328 - Creating add: Trying to create add with your settings
-18:51:41.143048 - Creating add: Trying to create add with your settings
-18:51:41.518595 - Creating add: Trying to create add with your settings
-18:51:41.885609 - Creating add: Trying to create add with your settings
-18:51:42.250033 - Creating add: Trying to create add with your settings
-18:51:42.617835 - Creating add: Trying to create add with your settings
-18:51:43.002243 - Creating add: Trying to create add with your settings
-18:51:43.397914 - Creating add: Trying to create add with your settings
+19:00:10.657402 - App initialization: Trying to configure app
+19:00:10.6574020 - Making url: Configured url with https://ip-2113.api.branch.swapix.com/
+19:00:10.6574021 - App initialization: Failed to load json configs, will work with default settings
+19:00:10.658376 - Registration: Registering with user op12+0@op.op
+19:00:11.736905 - Registration: ('id': 117,  'email': 'op12+0@op.op',  'token': 'aAlaqnLGUtK08c1A6zMLh1S8-FweqcMY')
+19:00:11.737871 - Creating add: Trying to create add with your settings
+19:00:12.141135 - Creating add: Trying to create add with your settings
+19:00:12.574735 - Creating add: Trying to create add with your settings
+19:00:13.035661 - Creating add: Trying to create add with your settings
+19:00:13.437965 - Creating add: Trying to create add with your settings
+19:00:13.817362 - Creating add: Trying to create add with your settings
+19:00:14.201828 - Creating add: Trying to create add with your settings
+19:00:14.585240 - Creating add: Trying to create add with your settings
+19:00:14.990738 - Creating add: Trying to create add with your settings
+19:00:15.407794 - Creating add: Trying to create add with your settings
+19:00:15.785003 - Registration: Registering with user op12+1@op.op
+19:00:16.783954 - Registration: ('id': 118,  'email': 'op12+1@op.op',  'token': 'hcahJXVfUChvEHBftzJy0jHZ2Jm7wmHN')
+19:00:16.784957 - Creating add: Trying to create add with your settings
+19:00:17.194636 - Creating add: Trying to create add with your settings
+19:00:17.695568 - Creating add: Trying to create add with your settings
+19:00:18.111828 - Creating add: Trying to create add with your settings
+19:00:18.483205 - Creating add: Trying to create add with your settings
+19:00:18.894409 - Creating add: Trying to create add with your settings
+19:00:19.264010 - Creating add: Trying to create add with your settings
+19:00:19.659970 - Creating add: Trying to create add with your settings
