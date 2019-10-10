@@ -1,0 +1,112 @@
+import argparse
+import json
+from user_class import User
+import config
+import random
+from config import ReportHandler
+
+
+# def get_attrs():
+#     parser = argparse.ArgumentParser()
+#     parser.add_argument('--email', action='store', dest='email', default='op@op.op')
+#     parser.add_argument('--password', action='store', dest='password', default='opopopop')
+#     parser.add_argument('--destination', action='store', dest='dest', default='https://test.swapix.com/')
+#     parser.add_argument('--out_path', action='store', dest='out_path', default="json_out.json")
+#     parser.add_argument('--count', action='store', dest='count', default=0)
+#     parser.add_argument('--to_print', action='store', dest='to_print')
+#     parser.add_argument('--new', action='store', dest='new', default='new')
+#     parser.add_argument('--ads_count', action='store', dest='ads_count', default=5)
+#     parser.add_argument('--config_path', action='store', dest='config', default="add.json")
+#     result = parser.parse_args()
+#     return result
+
+
+def get_add_example():
+    try:
+        with open(config.path, "r") as read_file:
+            data = json.load(read_file)
+        data = data["data"][0]
+        config.ad_category_id = data["category_id"]
+        config.ad_location_id = data["location_id"]
+        config.ad_name = data["name"]
+        config.ad_description = data["description"]
+        config.ad_cost = data["cost"]
+        config.ad_photos = data["photos"]
+    except FileNotFoundError:
+        return None
+
+
+def generate_statistics(users_count, ads_count):
+    i = 0
+    curr_ads = 60
+    while i < users_count:
+        user = User("op7+{}@op.op".format(str(i)), "opopopop")
+        user.register()
+        i += 1
+        y = 0
+        while y < ads_count:
+            # КОСТЫЛЬ
+            config.ad_category_id += 1
+            user.create_ad()
+            curr_ads += 1
+            y += 1
+        z = 0
+        #КОСТЫЛЬ
+        config.ad_category_id = 76
+
+
+def generate_watches(ads_min_id, ads_max_id, ads_count):
+    i = 0
+    while i < 15:
+        user = User("kabalnov.y+{}op@gmail.com".format(str(i)), "opopopop")
+        user.authorize()
+        y = ads_min_id
+        i += 1
+        y = ads_min_id
+        while y < ads_count+ads_min_id:
+            user.watch_ad(random.randint(ads_min_id, ads_max_id))
+            y += 1
+
+
+def upload_image():
+    user = User("op@op.op", "opopopop")
+    user.authorize()
+    user.user_upload_image()
+
+
+def init_app(url):
+    finish_app()
+    if "test" in str(url):
+        config.url = 'https://api.test.swapix.com/'
+    else:
+        config.url = config.url.replace("{branch}", str(url))
+    config.headers = config.headers_desk
+    ReportHandler.add_log("App initialization", "Trying to configure app")
+    ReportHandler.add_log("Making url", "Configured url with {0}".format(config.url))
+    if not get_add_example():
+        ReportHandler.add_log("App initialization",
+                              "Failed to load json configs, will work with default settings")
+        ReportHandler.add_error("App initialization",
+                                "Failed to load json configs, will work with default settings")
+# TODO: обработать вход минимум и максимум айди объяв
+    min_ad = 0
+    max_ad = 60
+#     пытаемся натроить глобальный реквест объектж
+
+
+def finish_app():
+    ReportHandler.print_errors()
+    ReportHandler.print_logs()
+
+
+def main():
+    url = "2113"
+    init_app(url)
+    generate_statistics(10, 10)
+    # generate_watches(61, 162, 10)
+    # upload_image()
+    finish_app()
+
+
+if __name__ == '__main__':
+    main()

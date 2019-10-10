@@ -1,0 +1,1 @@
+18:50:54.218880 - App initialization: Failed to load json configs, will work with default settings

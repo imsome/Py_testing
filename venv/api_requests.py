@@ -1,0 +1,5 @@
+register = "v3/user/register"
+authorize = "v3/user/login"
+watch_ad = "v3/ad/view/"
+create_ad = "v3/ad/create"
+upload_image = "v3/image/upload"

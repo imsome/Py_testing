@@ -1,0 +1,14 @@
+{
+    "data": [
+        {
+            "category_id": 76,
+            "location_id": 732,
+            "name": "testing",
+            "description": "Payment category testing",
+            "cost": "2000",
+            "photos": [
+				"i.jpg"
+            ]
+		}
+    ]
+}
